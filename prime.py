@@ -1,16 +1,9 @@
-#!/usr/bin/env python3
 
-# Prime Factorization
-# Have the user enter a number
-# and return its prime factors
-
-# Extra: show the exponent of
-# the prime factors as well
 
 from collections import Counter
 
 
-def is_prime(x):
+def is_prime(x):#praym klasi
     """
     Checks whether the given
     number x is prime or not
@@ -29,7 +22,7 @@ def is_prime(x):
     return True
 
 
-def get_exponent(n):
+def get_exponent(n):#klasslar
     """
     Counts the same elements in n list
     returns a list with the exponent of
@@ -49,7 +42,7 @@ def get_exponent(n):
     return factors
 
 
-def main():  # Wrapper function
+def main():  # main fusksiyasi
 
     n = int(input('Enter a number to find its prime factors: '))
 
